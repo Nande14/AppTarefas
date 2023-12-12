@@ -17,7 +17,7 @@ export default function App() {
       <View style={styles.header}>
         <TextInput
           style={styles.input}
-          placeholder="Tarefa"
+          placeholder="Digite sua Tarefa"
           value={task}
           onChangeText={(text) => setTask(text)}
           placeholderTextColor="#ffffff"
